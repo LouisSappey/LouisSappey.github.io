@@ -1,3 +1,20 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /private/
+Allow: /
+
+# Sitemap for better indexing
+Sitemap: https://bytemeuh.website/sitemap.xml
+
+# Blocking specific bots
+User-agent: BadBot
+Disallow: /
+
+# Prevent indexing of temporary or unnecessary files
+Disallow: /temp/
+Disallow: /old/
+Disallow: /dev/
+
+# Allow specific crawlers like Googlebot
+User-agent: Googlebot
+Allow: /
