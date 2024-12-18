@@ -1,8 +1,8 @@
-.home-container {
+.pages-container {
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 20px;
     background-color: #f8f9fa;
+    width: 100%;
   }
   
   .header {
