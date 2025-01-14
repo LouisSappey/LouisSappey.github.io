@@ -3,8 +3,24 @@
   <!-- Home Page -->
   <url>
     <loc>https://bytemeuh.website/</loc>
-    <lastmod>2024-12-18</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2024-03-18</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- About Us Page -->
+  <url>
+    <loc>https://bytemeuh.website/about</loc>
+    <lastmod>2024-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Why Choose Us Page -->
+  <url>
+    <loc>https://bytemeuh.website/why-choose-us</loc>
+    <lastmod>2024-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
