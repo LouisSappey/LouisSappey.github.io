@@ -1,20 +1,25 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: /private/
 Allow: /
+Allow: /about
+Allow: /why-choose-us
 
-# Sitemap for better indexing
-Sitemap: https://bytemeuh.website/sitemap.xml
-
-# Blocking specific bots
-User-agent: BadBot
-Disallow: /
-
-# Prevent indexing of temporary or unnecessary files
+# Block access to any development or temporary paths
 Disallow: /temp/
-Disallow: /old/
 Disallow: /dev/
+Disallow: /*.js$
+Disallow: /*.css$
 
-# Allow specific crawlers like Googlebot
+# Allow specific crawlers
 User-agent: Googlebot
 Allow: /
+Allow: /about
+Allow: /why-choose-us
+
+User-agent: Bingbot
+Allow: /
+Allow: /about
+Allow: /why-choose-us
+
+# Sitemap location
+Sitemap: https://bytemeuh.website/sitemap.xml
