@@ -9,6 +9,37 @@ import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.css";
 
 const App = () => {
+  const isSnap = navigator.userAgent === "ReactSnap";
+
+  // Don't wrap in Router if using StaticRouter
+  if (isSnap) {
+    return (
+      <>
+        <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+          <Container>
+            <Nav className="me-auto">
+              <Nav.Link as={Link} to="/">
+                Home
+              </Nav.Link>
+              <Nav.Link as={Link} to="/about">
+                About Us
+              </Nav.Link>
+              <Nav.Link as={Link} to="/why-choose-us">
+                Why Choose Us
+              </Nav.Link>
+            </Nav>
+          </Container>
+        </Navbar>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/why-choose-us" element={<WhyChooseUs />} />
+        </Routes>
+      </>
+    );
+  }
+
+  // Use HashRouter for the client
   return (
     <Router>
       <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
