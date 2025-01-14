@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.4348aa53.css",
-    "main.js": "/static/js/main.53a94620.js",
+    "main.js": "/static/js/main.825875e5.js",
     "static/js/453.0996001a.chunk.js": "/static/js/453.0996001a.chunk.js",
     "static/media/funny-cow.jpg": "/static/media/funny-cow.616d44eb0438cb623f60.jpg",
     "index.html": "/index.html",
     "main.4348aa53.css.map": "/static/css/main.4348aa53.css.map",
-    "main.53a94620.js.map": "/static/js/main.53a94620.js.map",
+    "main.825875e5.js.map": "/static/js/main.825875e5.js.map",
     "453.0996001a.chunk.js.map": "/static/js/453.0996001a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4348aa53.css",
-    "static/js/main.53a94620.js"
+    "static/js/main.825875e5.js"
   ]
 }
